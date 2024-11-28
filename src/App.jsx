@@ -8,7 +8,10 @@ function App() {
 
   return (
     <>
-      <ImageToSvgConverter />
+    <div className='flex justify-center bg-gray-100 w-screen h-screen items-center'>
+    <ImageToSvgConverter />
+    </div>
+      
     </>
   )
 }
